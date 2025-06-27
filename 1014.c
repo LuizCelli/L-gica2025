@@ -2,14 +2,14 @@
  
 int main() {
  
-   int distancia, combustivel, x;
+   int distancia; 
+   double combustivel, x;
    
-   sacnf("%d %d", &distancia, &combustivel);
+  sacnf("%d %lf", &distancia, &combustivel);
 
   x = ( distancia / combustivel );
 
-  printf ("
-   
-   
+  printf ("%.3lf km/l\n", x);
+ 
     return 0;
 }
